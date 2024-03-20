@@ -1,0 +1,20 @@
+header {
+    border-bottom: 1px solid #fff;
+}
+
+main {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.itens-navegacao {
+    display: flex;
+    gap: 4rem;
+}
