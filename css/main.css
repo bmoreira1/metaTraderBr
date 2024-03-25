@@ -1,0 +1,60 @@
+
+
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    height: 100vh;
+    gap: 10rem;
+}
+
+.conteudo-1 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.conteudo-2 {
+    align-self:center;
+}
+
+.conteudo-1 h1{
+    width: 30ch;
+    line-height: 1.125;
+    font-size: 2rem;
+}
+
+.conteudo-1 p{
+    width: 55ch;
+    line-height: 1.125;
+    font-size: 1.3rem;
+    text-align: justify
+}
+
+.link-main {
+    text-transform: uppercase;
+    background-color: #00FF08;
+    color: #111;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;    
+    width: fit-content;
+}
+
+.link-main:hover {
+    background-color: #228B22;
+}
+
+.conteudo-1 span {
+    color: #00FF08;
+}
+
+.conteudo-2 img {
+    border-radius: 50px 5px 50px 5px;
+    width: 80%;
+}

@@ -2,11 +2,12 @@ header {
     border-bottom: 1px solid #fff;
 }
 
-main {
+.header-container {
     color: #fff;
     display: flex;
     justify-content: space-around;
     margin: 1rem 0;
+    flex-wrap: wrap;
 }
 
 .navegacao {
@@ -17,4 +18,42 @@ main {
 .itens-navegacao {
     display: flex;
     gap: 4rem;
+}
+
+.itens-navegacao a{
+    color: #808080;
+    position: relative;
+}
+
+.itens-navegacao a:hover {
+    color: #fff;
+    transition: .2s;
+}
+
+.itens-navegacao a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #00FF08;
+    margin-top: .2rem;
+    transition: .5s;
+    position: absolute;
+}
+
+.itens-navegacao a:hover:after {
+    width: 100%;
+}
+
+.contato {
+    background-color: #00FF00;
+    color: #111;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contato:hover {
+    background-color: #228B22;
 }
