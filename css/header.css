@@ -1,18 +1,26 @@
 header {
-    border-bottom: 1px solid #fff;
-    position: fixed;
-    min-width: 1550px;
-    background-color: #000;
-    z-index: 1;
+    max-width: 1400PX;
+    width: 100%;
+    margin: auto;
 }
 
 .header-container {
+    background-color: #000;
     color: #fff;
     display: flex;
-    justify-content: space-around;
-    margin: 1rem 0;
     flex-wrap: wrap;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;  
+    padding: 1.3rem 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
 }
+
 
 .navegacao {
     display: flex;
@@ -21,7 +29,7 @@ header {
 
 .itens-navegacao {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .itens-navegacao a{
