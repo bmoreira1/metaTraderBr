@@ -1,0 +1,43 @@
+.HeaderQuemSomos {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricaoQuemSomos {
+    width: 70ch;
+    margin: 2rem;
+    display: flex;
+    line-height: 1.275;
+    font-size: 1.1rem;
+}
+.swiper {
+    margin-bottom: 15rem;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+} 
+
+.project-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.teste {
+    font-size: 1.2rem;
+    display: flex;
+    text-align: justify;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+
+}
