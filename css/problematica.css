@@ -1,0 +1,37 @@
+.IMG-problem {
+    display: flex;
+    justify-content: center;
+}
+
+.IMG-problem img{
+    max-width: 25%;
+    height: 200px;
+}
+
+.containerProblematica {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem ;
+    max-width: 1400px;
+    margin: 10rem auto;
+    color: #fff;
+    background-color: #001;
+    padding: 1rem;
+}
+.containerProblematica h1 {
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+    font-size: 2.3rem;
+}
+
+.containerProblematica h2 {
+    margin: 2rem 0 .5rem 5rem;
+    font-size: 1.8rem;
+}
+
+.containerProblematica p {
+    margin: 0 7rem;
+    width: 95ch;
+    font-size: 1.3rem;
+    line-height: 1.325;
+}

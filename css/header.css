@@ -15,10 +15,11 @@ header {
     position: fixed;
     top: 0;
     box-sizing: border-box;  
-    padding: 1.3rem 0;
+    padding: 1.3rem .5rem;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    border-radius: 5px;
 }
 
 
