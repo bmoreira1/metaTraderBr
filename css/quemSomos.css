@@ -12,7 +12,6 @@
     line-height: 1.375;
     font-size: 1rem;
 }
-
 .swiper {
     margin-bottom: 3rem;
 }
@@ -80,7 +79,7 @@
 }
 
 .name-member:hover::after {
-    max-width: 100%;
+    width: 100%;
     right: 0;
 }
 
