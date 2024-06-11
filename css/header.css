@@ -1,6 +1,6 @@
 header {
     max-width: 1400PX;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header-container {
@@ -8,10 +8,9 @@ header {
     color: #fff;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     margin: 0 auto;
     box-sizing: border-box;  
-    padding: 1.3rem .5rem;
+    padding: .7rem .5rem;
     justify-content: space-around;
     align-items: center;
     z-index: 999;
@@ -30,7 +29,7 @@ header {
 .itens-navegacao a{
     color: #808080;
     position: relative;
-    margin: 0 1.3rem;
+    margin: 0 .7rem;
     display: flex;
     flex-wrap: wrap;
 }

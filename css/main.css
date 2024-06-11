@@ -1,3 +1,6 @@
+.conteudo{
+    margin-top: 7rem;
+}
 
 .astronauta{
     border-radius: 50px 16px 50px 16px;
@@ -27,5 +30,9 @@
 }
 
 .linha-vertical{
-    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.descricao-grafico{
+    max-width: 60ch;
 }
