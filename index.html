@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Project trader DataScience">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/icons/stock-market.png" type="image/x-icon">
-    
+
     <title>Trader Data Science</title>
 </head>
 
 <body>
     <header>
-        <div class="header-container">
+        <div class="header-container fixed-top">
             <h1 class="titulo">Trader Data Science</h1>
             <nav class="navegacao">
                 <ul class="itens-navegacao">
@@ -22,55 +23,73 @@
                     <li><a href="./pages/quemSomos.html">Quem somos</li></a>
                 </ul>
             </nav>
-            <a class="contato" href="#">Contato</a>
         </div>
     </header>
 
-    <main>
-        <div class="container">
-            <div class="conteudo-1">
-                <h1>
-                    Alcance o Pico do Mercado: Seu Guia MetaTrader para Sucesso Financeiro<span>.</span>
-                </h1>
-                <p>
-                    Prepare-se para o sucesso financeiro com o Trader Data Science, seu parceiro confiável. Explore ferramentas, análises e recursos educacionais para dominar os mercados. Comece hoje e alcance novos patamares.
-                </p>
-                <a class="link-main" href="#">Entre em Contato</a>
-            </div>
-            <div class="conteudo-2">
-                <img src="./img/astronautaFundoAzul.png" alt="Astronauta no espaço tons de azul">
-            </div>
-        </div>
-    </main>
-    
-    <article>
-        <div class="container-carteira">
-            <div class="conteudo-carteira">
-                <h1>
-                    Potencialize o aumento do seu capital.
-                </h1>
-                <p>
-                    Aplicações elaboradas para aprimorar ainda mais a sua estratégia de investimento.
-                </p>
-            </div>
-            <div class="descricao-grafico">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#4D5358" d="M22 0H0v4.711h17.454C18.548 2.861 20.107 1.252 22 0Z"></path><path fill="#19C819" d="M15.94 8.652H0v4.711h15.94a12.128 12.128 0 0 1-.235-2.357c0-.804.083-1.59.234-2.356v.002Z"></path><path fill="#B0B7BE" d="M17.447 17.289H0V22h21.98c-1.888-1.254-3.442-2.863-4.533-4.711Z"></path></svg>
-                <h1>
-                    Maximize Investimentos com Análises de Gráficos
-                </h1>
-               
-                <p>
-                    Otimize suas estratégias de investimento analisando cuidadosamente os gráficos mensais do mercado de ações e de carteiras específicas.
-                </p>
-                <div class="conteudo-grafico">
-                    <div>
-                        <img src="./img/grafico.png" alt="informação do gráfico vindos da API">
+    <section>
+        <div class="container mt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <h1>
+                            Alcance o Pico do Mercado: Seu Guia MetaTrader para Sucesso Financeiro <span>.</span>
+                        </h1>
 
+                        <p class="mt-3">
+                            Prepare-se para o sucesso financeiro com o Trader Data Science,
+                            seu parceiro confiável. Explore ferramentas, análises e recursos educacionais
+                            para dominar os mercados. Comece hoje e alcance novos patamares.
+                        </p>
+
+                        <span class="d-block mt-5 "><a class="contato" href="">ENTRE EM CONTATO</a></span>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid astronauta" src="./img/astronautaFundoAzul.png" alt="Astronauta no espaço tons de azul">
                     </div>
                 </div>
             </div>
         </div>
-    </article>
-</body>
+    </section>
 
+    <section>
+        <div class="container linha-vertical mt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2>
+                            Potencialize o aumento do seu capital.
+                        </h2>
+                        <p class="">
+                            Aplicações elaboradas para aprimorar ainda mais a sua estratégia de investimento.
+                        </p>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="justify-content-end">
+                            <h2 class="text-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none">
+                                    <path fill="#4D5358" d="M22 0H0v4.711h17.454C18.548 2.861 20.107 1.252 22 0Z"></path>
+                                    <path fill="#19C819" d="M15.94 8.652H0v4.711h15.94a12.128 12.128 0 0 1-.235-2.357c0-.804.083-1.59.234-2.356v.002Z"></path>
+                                    <path fill="#B0B7BE" d="M17.447 17.289H0V22h21.98c-1.888-1.254-3.442-2.863-4.533-4.711Z"></path>
+                                </svg>
+                                Maximize Investimentos com Análises de Gráficos
+                            </h2>
+                            <p class="text-end mt-2">
+                                Otimize suas estratégias de investimento analisando cuidadosamente os gráficos mensais do mercado de ações e de carteiras específicas.
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-end mt-3">
+                            <img class="img-fluid" src="./img/grafico.png" alt="informação do gráfico vindos da API">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text-center py-3 mt-5 border-top">
+            <p class="mb-0">Meta Trader Data Science © 2024. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
 </html>
