@@ -37,6 +37,12 @@
   flex-wrap: wrap;
 }
 
+.description{
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgba(250, 164, 5, 0.63);
+}
+
 @media (max-width: 769px) {
   .containerProblematica h1 {
     font-size: 1.8rem;

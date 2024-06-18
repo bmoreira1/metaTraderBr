@@ -19,3 +19,8 @@ ul {
 a {
     text-decoration: none;
 }
+
+.resultados{
+    background-color: #00FF08;
+    color: #000000;
+}
